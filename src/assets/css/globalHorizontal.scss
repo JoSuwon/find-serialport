@@ -1,0 +1,49 @@
+html::-webkit-scrollbar{
+  display:none;
+}
+
+.v-application{
+  height:100vh;
+  max-height:100vh;
+  overflow:hidden;
+  font-family: 'SCDream';
+  letter-spacing:0px;
+  font-size:18px;
+  font-weight:400;
+  color:#494949;
+  word-break: keep-all;
+  height:100%;
+
+  ul,li{
+    list-style:none;
+    padding:0px;;
+    margin:0px;
+  }
+
+  h1,h2,h3,h4,h5,h6,dt,dd,dl{
+    font-weight:400;
+    font-family:'SCDream'
+  }
+
+  p{
+    font-family:'SCDream';
+    font-weight:400;
+    margin:0;
+  }
+
+  img{display:block;}
+
+  .v-btn{
+  letter-spacing:-0px;
+  }
+
+  .v-dialog{
+  box-shadow: 0px 0px 0px rgba(0,0,0,0);
+  }
+
+  .row{padding:0;margin:0;}
+  .col{padding:0;margin:0;}
+}
+
+
+
